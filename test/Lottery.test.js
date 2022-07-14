@@ -81,5 +81,6 @@ describe("Lottery Contract", function () {
       // With hardhat, by default, all test signers have 10000 ETH, so we check if the winner has more than that
       expect(winnerBalance.gt(BigNumber.from(parseEther("10000")))).to.be.true;
     });
+
   });
 });
